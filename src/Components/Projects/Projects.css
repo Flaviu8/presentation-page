@@ -1,0 +1,42 @@
+.links li:hover {
+    color: rgb(3, 27, 27);
+    text-decoration: underline;
+}
+
+.links {
+    list-style-type: disc;
+    margin-left: 18px;
+    color: #043c86;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .projects {
+     display: block;
+    }
+
+    .projects_main h3 {
+        font-size: 24px;
+    }
+
+    .projects_main h4 {
+        font-size: 24px;
+    }
+  }

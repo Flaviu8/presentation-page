@@ -1,0 +1,13 @@
+.navbar li {
+  margin-right: 14px;
+}
+
+.navbar li:hover {
+  color: #DBEAFE;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar li {
+   font-size: 12px;
+  }
+}
