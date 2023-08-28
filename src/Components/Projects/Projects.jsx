@@ -79,7 +79,7 @@ export default function Projects() {
             </button>
         </div>
         </div>
-        <div className="max-w-sm bg-white shadow-md rounded-lg overflow-hidden">
+        <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <img
             className="w-full h-48 object-cover"
             src={screen3}
