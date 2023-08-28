@@ -60,5 +60,8 @@ section{
   .banner img {
     height: 20px;
     margin-left: 8px;
-    margin-top: 0px;
+  }
+
+  .download_btn {
+    font-size: 12px;
   }
