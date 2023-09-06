@@ -58,12 +58,12 @@ section{
   }
 
   .banner img {
-    height: 20px;
+    height: 28px;
     margin-left: 8px;
   }
 
   .download_btn {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: 700px) {
