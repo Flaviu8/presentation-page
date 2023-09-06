@@ -106,6 +106,7 @@ export default function Projects() {
             <ul className='links'>
                 <li className='mb-4'><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/market-app-backend' target='_blank'>Market App Backend</a></li>
                 <li><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/cinema-backend' target='_blank'>Cinema App Backend</a></li>
+                <li><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/e-book' target='_blank'>eBook App Backend</a></li>
             </ul>
         </div>
     </div>
