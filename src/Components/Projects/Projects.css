@@ -5,12 +5,8 @@
 
 .links {
     list-style-type: disc;
-    margin-left: 18px;
     color: #043c86;
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .projects {
