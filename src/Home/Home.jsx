@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-screen-2xl overflow-hidden">
         <Cover />
         <Projects />
         <Footer/>
