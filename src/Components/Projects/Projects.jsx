@@ -102,7 +102,7 @@ export default function Projects() {
         </div>
         </div>
         <h4 className='text-neutral-950 text-3xl ml-4 pt-6 pb-6 text-center'>My Projects Back-end</h4>
-        <div className='ml-4'>
+        <div className='ml-4 text-center'>
             <ul className='links'>
                 <li className='mb-4'><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/market-app-backend' target='_blank'>Market App Backend</a></li>
                 <li><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/cinema-backend' target='_blank'>Cinema App Backend</a></li>
