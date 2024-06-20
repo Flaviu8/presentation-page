@@ -18,18 +18,16 @@ export default function FloatingImages() {
   const handleMouseMove = (e) => {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
-     const mouseZ = e.clientZ;
   
     const images = document.querySelectorAll('.floating img');
   
     images.forEach((image, index) => {
-      const speed = (index + 1) * 0.4;
+      const speed = (index + 1) * 0.3;
   
       const translateX = -2 + (mouseX * speed * 0.04);
       const translateY = -2 + (mouseY * speed * 0.04);
-       const translateZ = -2 + (mouseZ * speed * 0.04);
   
-      image.style.transform = `translate(${translateX}px, ${translateY}px), ${translateZ}px)`;
+      image.style.transform = `translate(${translateX}px, ${translateY}px)`;
     });
   };
 
