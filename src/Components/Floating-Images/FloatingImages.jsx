@@ -22,7 +22,7 @@ export default function FloatingImages() {
     const images = document.querySelectorAll('.floating img');
   
     images.forEach((image, index) => {
-      const speed = (index + 1) * 0.1;
+      const speed = (index + 1) * 0.4;
   
       const translateX = -2 + (mouseX * speed * 0.04);
       const translateY = -2 + (mouseY * speed * 0.04);
