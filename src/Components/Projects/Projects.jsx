@@ -3,6 +3,8 @@ import './Projects.css'
 import screen1 from '../../assets/images/screen-1.png'
 import screen2 from '../../assets/images/screen-2.png'
 import screen3 from '../../assets/images/screen-3.png'
+import screen4 from '../../assets/images/screen4.png'
+
 
 
 export default function Projects() {
@@ -19,19 +21,26 @@ export default function Projects() {
         window.open("https://lucent-lamington-12e0dd.netlify.app/", "_blank", "noopener,noreferrer");
     }
 
+        const navigateToStore = () => {
+        window.open("https://github.com/Flaviu8/store_go", "_blank", "noopener,noreferrer");
+    }
+
     const navigateToNetlifyVideo = () => {
         window.open("https://stellar-licorice-325adf.netlify.app/", "_blank", "noopener,noreferrer");
     }
 
-
-
-    const navigateToVideo = () => {
+       const navigateToVideo = () => {
         window.open("https://github.com/Flaviu8/video-apps", "_blank", "noopener,noreferrer");
     }
 
-    const navigateToStore = () => {
-        window.open("https://github.com/Flaviu8/store_go", "_blank", "noopener,noreferrer");
+       const navigateToDesign = () => {
+        window.open("https://delicate-sawine-0ce150.netlify.app/", "_blank", "noopener,noreferrer");
     }
+
+      const navigateToDesignGit = () => {
+        window.open("https://github.com/Flaviu8/profiri", "_blank", "noopener,noreferrer");
+    }
+
 
   return (
     <div className='projects_main'>
@@ -96,6 +105,27 @@ export default function Projects() {
             Source Code
             </button>
             <button onClick={navigateToNetlifyStore} className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded ml-6">
+                Netlify Link
+            </button>
+        </div>
+        </div>
+         <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
+        <img
+            className="w-full h-48 object-cover"
+            src={screen4}
+            alt="Card"
+        />
+        <div className="px-4 py-2">
+            <h2 className="text-xl font-semibold text-gray-800">Design-Project</h2>
+            <p className="mt-2 text-gray-600">
+            React/CSS
+            </p>
+        </div>
+        <div className="px-4 py-2">
+            <button onClick={navigateToDesignGit} className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded">
+            Source Code
+            </button>
+            <button onClick={navigateToDesign} className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded ml-6">
                 Netlify Link
             </button>
         </div>
