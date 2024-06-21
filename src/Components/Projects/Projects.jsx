@@ -45,7 +45,7 @@ export default function Projects() {
   return (
     <div className='projects_main'>
         <h3 className='text-neutral-950 text-3xl ml-4 pt-6 pb-6 text-center'>My Projects Front-end</h3>
-    <div className='projects ml-4 mr-4'>
+    <div className='projects'>
         <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <img
             className="w-full h-48 object-cover"
