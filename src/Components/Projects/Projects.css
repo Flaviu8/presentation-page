@@ -11,8 +11,8 @@
 
 .projects {
     display: flex;
-    justify-content: space-between;
-    margin-left: 2px;
+    justify-content: center;
+    gap: 10px;
 }
 .buttons{
     margin-bottom: 8px;
