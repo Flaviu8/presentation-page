@@ -40,7 +40,7 @@ export default function Projects() {
         <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <img
             className="w-full h-48 object-cover"
-            src={screen1}
+            src={screen2}
             alt="Card"
         />
         <div className="">
@@ -61,7 +61,7 @@ export default function Projects() {
         <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <img
             className="w-full h-48 object-cover"
-            src={screen2}
+            src={screen1}
             alt="Card"
         />
         <div className="px-4 py-2">
