@@ -44,7 +44,7 @@ export default function Projects() {
 
   return (
     <div className='projects_main'>
-        <h3 className='text-neutral-950 text-3xl ml-4 pt-6 pb-6 text-center'>My Projects Front-end</h3>
+        <h3 className='text-neutral-950 text-3xl pt-6 pb-6 text-center'>My Projects Front-end</h3>
     <div className='projects'>
         <div className="max-w-sm mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <img
@@ -131,7 +131,7 @@ export default function Projects() {
         </div>
         </div>
         </div>
-        <h4 className='text-neutral-950 text-3xl ml-4 pt-6 pb-6 text-center'>My Projects Back-end</h4>
+        <h4 className='text-neutral-950 text-3xl pt-6 pb-6 text-center'>My Projects Back-end</h4>
         <div className='ml-4 flex justify-center'>
             <ul className='links'>
                 <li className='mb-4'><a className='text-2xl text-indigo-600' href='https://github.com/Flaviu8/market-app-backend' target='_blank'>Market App Backend</a></li>
